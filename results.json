@@ -1,0 +1,35 @@
+{
+  "config": {
+    "label_level": "superclass",
+    "feature_type": "cnn",
+    "knn_k": 10,
+    "top_lambda": 10,
+    "d": 64,
+    "n_layers": 2,
+    "n_subsample": 3000,
+    "epochs": 150
+  },
+  "class_names": [
+    "CD",
+    "HYP",
+    "MI",
+    "NORM",
+    "STTC"
+  ],
+  "test_results": {
+    "ranking_loss": 0.0865079365079365,
+    "hamming_loss": 0.11492063492063492,
+    "macro_auc": 0.9190465660602192,
+    "macro_ap": 0.8057905183735785,
+    "micro_auc": 0.9338250173294927,
+    "micro_ap": 0.8528462258886818,
+    "lrap": 0.8813403880070544
+  },
+  "per_class_auc": {
+    "CD": 0.9108454810495628,
+    "HYP": 0.8955512572533849,
+    "MI": 0.9380228584894544,
+    "NORM": 0.9392334438424841,
+    "STTC": 0.9115797896662095
+  }
+}
